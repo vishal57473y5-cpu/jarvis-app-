@@ -1,0 +1,28 @@
+name: jarvis_app
+description: J.A.R.V.I.S — native mobile voice assistant.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  shared_preferences: ^2.2.3
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  flutter_timezone: ^2.0.1
+  url_launcher: ^6.3.0
+  geolocator: ^11.0.0
+  android_intent_plus: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
